@@ -2,7 +2,7 @@ package:
   id: dtkcore
   name: dtkcore
   kind: lib
-  version: 5.5.26
+  version: 5.6.0.4
   description: |
     dtkcore
 
@@ -10,15 +10,14 @@ base:
   id: org.deepin.base/23.0.0
 
 depends:
-  - id: qtbase/5.11.3.15
+  - id: qtbase/5.15
   - id: dtkcommon/5.5.3
   - id: gsettings-qt/0.2
 
 source:
   kind: git
   url: https://github.com/linuxdeepin/dtkcore.git
-  version: develop/snipe
-  commit: 3ace2e4fa70792cd2d429f60007d0e8a879f250d
+  commit: 5.6.0.4
 
   patch: []
 
